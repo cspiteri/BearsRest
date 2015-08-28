@@ -106,7 +106,7 @@ router.route('/bears/:bear_id')
                         res.send(err);                        
                     }
                     else {
-                        res.json({ message: 'Bear updated!' });
+                        res.json({ message: 'Bear has been updated!' });
                     }
                 });
             }
@@ -122,7 +122,7 @@ router.route('/bears/:bear_id')
               res.send(err);
           } 
           else {
-              res.json({ message: 'Successfully deleted' });
+              res.json({ message: 'Bear has been successfully deleted' });
           }
        }); 
     });
